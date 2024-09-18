@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Odstraní scrollbary */
+}
+
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+table {
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 10px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+td {
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    color: #00ffcc;
+}
