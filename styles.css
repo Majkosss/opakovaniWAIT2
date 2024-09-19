@@ -1,22 +1,18 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Odstraní scrollbary */
+    overflow: hidden;
 }
 
 body {
-    background-image: url('background.jpg');
+    background-image: url('img/background.jpg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     min-height: 100vh;
 }
 
 table {
-    background-color: rgba(0, 0, 0, 0.521);
-    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.562);
+    padding: 5px;
     border-radius: 8px;
     width: 80%;
     margin: 0 auto;
@@ -24,13 +20,13 @@ table {
 
 header h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #fff;
 }
 
 section h2 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     color: #fff;
 }
 
@@ -47,5 +43,5 @@ th {
 }
 
 a {
-    color: #00ffcc;
+    color: #1bf3ab;
 }
